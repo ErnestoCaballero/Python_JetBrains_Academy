@@ -14,8 +14,6 @@ def hangman_play():
     correct_guesses = set()
     lives = 8
 
-    print(f'{choice}')
-
     while True:
         print()
         print(''.join(mutable_choice))
